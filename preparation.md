@@ -1,6 +1,6 @@
 # 事前準備
 
-このガイドで紹介される環境を、実際に Azure 上に構築して試す場合に準備しておく開発環境の構築や、演習用のプロジェクトの入手について紹介します。
+ハンズオンの演習に入る前に必要な準備について紹介します。
 <br><br>
 
 ## 1. アカウント
@@ -38,7 +38,7 @@
 
 ### App Service (Web Apps) でホストするアプリケーションの開発環境
 
-Azure App Service の演習で使用するアプリケーションは .NET7 の MVC Framework で作成されており、SQL Server Express LocalDB を使用する都合上、Windows 上での動作を前提としています。
+Azure App Service の演習で使用するアプリケーションは [.NET7](https://learn.microsoft.com/ja-jp/dotnet/core/whats-new/dotnet-7) の [ASP.NET Core MVC](https://learn.microsoft.com/ja-jp/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio) で作成されており、Visual Studio 開発用 DB(SQL Server Express LocalDB) を使用する都合上、Windows 上での動作を前提としています。
 
 このプロジェクトをビルドするには Visual Studio 2022 が必要です。
 
@@ -48,7 +48,7 @@ Visual Studio をお持ちでない場合は以下のサイトからライセン
 * [**Visual Studio Tools のダウンロード**](https://visualstudio.microsoft.com/ja/downloads/)
 
 
-Windows 以外の OS を使用していて Visual Studio がインストールできない場合は、以下のページよりあらかじめ Visual Studio がインストールされた Windows 11 の仮想マシンをダウンロードして使用することができます。
+Windows 以外の OS を使用しており Visual Studio がインストールできない場合は、以下のページよりあらかじめ Visual Studio がインストールされた Windows 11 の仮想マシンをダウンロードして使用することができます。
 
 * [**Windows 11 開発環境を取得する**](https://developer.microsoft.com/ja-jp/windows/downloads/virtual-machines/)
 
@@ -56,7 +56,12 @@ Windows 以外の OS を使用していて Visual Studio がインストール�
 
 <img src="images/Windows11DevEnv.png" width="800px">
 
-なお、これら仮想環境には git ツールはインストールされておりませんので、仮想マシン内から以下の URL にアクセスし git ツールをインストールしてください。
+なお、これら仮想環境の Windows は英語環境となっています。日本語環境を使用したい場合は、以下のページを参考にしてください。
+
+* [**Windows で入力および表示言語の設定を管理する**](https://developer.microsoft.com/ja-jp/windows/downloads/virtual-machines/)
+
+
+GitHub を使用するためには git ツールが必要になりますので、以下の URL よりダウンロードしてインストールしてください。
 
 * [**Git-Downloading Packege**](https://git-scm.com/download/win)
 

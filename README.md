@@ -66,14 +66,14 @@ Microsoft Azure では、完全な静的 Web アプリケーションであれ�
 
 Azure のアカウントでサブスクリプションが有効になっていかどうか、開発環境の構築から演習用のプロジェクトの入手とローカル環境での実行まで、ハンズオンを行うにあたって必要な事前準備について説明します。
 
-* [アカウントの確認とサンプル アプリケーションの入手](preparation.md)
+* [**アカウントの確認とサンプル アプリケーションの入手**](preparation.md)
 
 
 ## 演習
 
 このハンズオンでは、以下の演習を行います。
 
-1. ローカル開発環境上の ASP.NET Core アプリケーションを Azure App Service にデプロイ
+1. ローカル開発環境上の演習用アプリケーションを Azure App Service にデプロイ
     1. App Service と Azure SQL Database の作成
     2. Visual Studio Local DB(SQL Server) の内容を Azure SQL Database に移行
     3. 開発環境のアプリケーションを Azure App Service にデプロイ
