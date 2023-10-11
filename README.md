@@ -73,11 +73,12 @@ Azure のアカウントでサブスクリプションが有効になってい�
 
 このハンズオンでは、以下の演習を行います。
 
-1. ローカル開発環境上の演習用アプリケーションを Azure App Service にデプロイ
-    1. App Service と Azure SQL Database の作成
-    2. Visual Studio Local DB(SQL Server) の内容を Azure SQL Database に移行
-    3. 開発環境のアプリケーションを Azure App Service にデプロイ
-    4. Azure App Service の設定の説明
+1. [ローカル開発環境上の演習用アプリケーションを Azure App Service にデプロイ](ex01.md)
+    1. [Azure SQL Database インスタンスの作成](ex01.md#%E3%82%BF%E3%82%B9%E3%82%AF-1-azure-sql-database-%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90)
+    2. [Visual Studio Local DB(SQL Server) の内容を Azure SQL Database に移行](ex01.md#%E3%82%BF%E3%82%B9%E3%82%AF-2-visual-studio-%E9%96%8B%E7%99%BA%E7%94%A8%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E5%86%85%E5%AE%B9%E3%82%92-azure-sql-database-%E3%81%AB%E7%A7%BB%E8%A1%8C)
+    3. [AppService インスタンスの作成](ex01.md#%E3%82%BF%E3%82%B9%E3%82%AF-3-appservice-%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90)
+    4. [開発環境のアプリケーションを Azure App Service にデプロイ](ex01.md#%E3%82%BF%E3%82%B9%E3%82%AF-4-appservice-%E3%81%AB%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4)
+    5. Azure App Service の設定の説明
 
 2. Web サイトを運用するための基本的な設定
     1. App Service ログの設定と有効化
