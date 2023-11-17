@@ -56,7 +56,9 @@ Windows 以外の OS を使用しており Visual Studio がインストール�
 
 <img src="images/Windows11DevEnv.png" width="800px">
 
-なお、これら仮想環境の Windows は英語環境となっています。日本語環境を使用したい場合は、以下のページを参考にしてください。
+仮想マシンのイメージのサイズは、使用する仮想化ソフトウェアによって異なりますが、Hyper-V の場合は 21.6GB 以上の空き容量が必要になります。
+
+また、これら仮想環境の Windows は英語環境となっています。日本語環境を使用したい場合は、以下のページを参考にしてください。
 
 * [**Windows で入力および表示言語の設定を管理する**](https://developer.microsoft.com/ja-jp/windows/downloads/virtual-machines/)
 
@@ -152,6 +154,12 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
     一見すると同じ画面に見えますが、左上に '**SPA**' とあるように、これは Single Page Application (SPA) となっており、クライアントサイドで JavaScript によって生成された画面です。
 
     <img src="images/View_SPA.png" width="700">
+
+    SPA 画面は動的 Web ページの画面と同じ機能を提供しますが、映画タイトル リストの \[**Edit**\] リンクをクリックした際に表示される編集画面で \[**Update**\] ボタンをクリックすると、以下のようなエラーが表示されるようになっています。
+
+    <img src="images/SPA_Error_http500.png" width="500px">
+
+    このエラーは演習で使用します。
 
 10. Web ブラウザーのナビゲーションバーの URL を以下のように変更します
 
