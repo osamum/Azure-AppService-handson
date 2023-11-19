@@ -60,7 +60,7 @@ Windows 以外の OS を使用しており Visual Studio がインストール�
 
 また、これら仮想環境の Windows は英語環境となっています。日本語環境を使用したい場合は、以下のページを参考にしてください。
 
-* [**Windows で入力および表示言語の設定を管理する**](https://developer.microsoft.com/ja-jp/windows/downloads/virtual-machines/)
+* [**Windows で入力および表示言語の設定を管理する**](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7%E5%85%A5%E5%8A%9B%E3%81%8A%E3%82%88%E3%81%B3%E8%A1%A8%E7%A4%BA%E8%A8%80%E8%AA%9E%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2)
 
 
 GitHub を使用するためには git ツールが必要になりますので、以下の URL よりダウンロードしてインストールしてください。
@@ -191,3 +191,6 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 👉 : [**演習1) タスク１ - ローカル環境でのプロジェクトの実行**](ex01.md)へ
 
 🏚️ :  [**README**](README.md)
+
+
+<!--handson-dev/P@ssw0rd1234-->
