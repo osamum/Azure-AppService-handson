@@ -40,13 +40,30 @@
 
 Azure App Service の演習で使用するアプリケーションは [.NET7](https://learn.microsoft.com/ja-jp/dotnet/core/whats-new/dotnet-7) の [ASP.NET Core MVC](https://learn.microsoft.com/ja-jp/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio) で作成されており、Visual Studio 開発用 DB(SQL Server Express LocalDB) を使用する都合上、Windows 上での動作を前提としています。
 
-このプロジェクトをビルドするには Visual Studio 2022 が必要です。
+この演習用アプリケーションをビルドし、実行するための開発環境の作成方法はいくつかありますので、ご自身の環境に合わせ以下のいずれかの方法で開発環境を作成してください。
 
-Visual Studio をお持ちでない場合は以下のサイトからライセンスに合致するものをダウンロードしてインストールすることができます。
+#### 1. Azure Dev Box を使用する
+
+Azure には、この演習で使用する Visual Studio 2022、Visual Stdio Code、Git ツールがあらかじめインストールされた仮想マシンのイメージが用意されています。
+
+この環境を利用するには以下の URL にアクセスし、表示された画面の \[**今すぐ入手**\] ボタンをクリックし、Azure 上に仮想マシンを作成してください。
+
+* [**Visual Studio 2022 (Microsoft Dev Box compatible)**](https://azuremarketplace.microsoft.com/ja/marketplace/apps/microsoftvisualstudio.visualstudioplustools?tab=Overview)
+
+仮想マシンの作成が完了したら Microsoft Defender for Cloud が RDP の接続をブロックする可能性があるため、以下のページを参考にして、Microsoft Defender for Cloud の設定を変更してください。
+
+* [**Microsoft Defender for Cloud を使用して JIT VM アクセスを操作する**](https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage#work-with-jit-vm-access-using-microsoft-defender-for-cloud)
+
+
+#### 2. ローカルの Windows マシンを使用する
+
+ローカルの Windows 環境を使用して演習用プロジェクトをビルドする場合は Visual Studio 2022 が必要です。Visual Studio をお持ちでない場合は以下のサイトからライセンスに合致するものをダウンロードしてインストールすることができます。
 
 
 * [**Visual Studio Tools のダウンロード**](https://visualstudio.microsoft.com/ja/downloads/)
 
+
+#### 3. Windows 11 の仮想マシンを使用する
 
 Windows 以外の OS を使用しており Visual Studio がインストールできない場合は、以下のページよりあらかじめ Visual Studio がインストールされた Windows 11 の仮想マシンをダウンロードして使用することができます。
 
@@ -60,7 +77,7 @@ Windows 以外の OS を使用しており Visual Studio がインストール�
 
 また、これら仮想環境の Windows は英語環境となっています。日本語環境を使用したい場合は、以下のページを参考にしてください。
 
-* [**Windows で入力および表示言語の設定を管理する**](https://developer.microsoft.com/ja-jp/windows/downloads/virtual-machines/)
+* [**Windows で入力および表示言語の設定を管理する**](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7%E5%85%A5%E5%8A%9B%E3%81%8A%E3%82%88%E3%81%B3%E8%A1%A8%E7%A4%BA%E8%A8%80%E8%AA%9E%E3%81%AE%E8%A8%AD%E5%AE%9A%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2)
 
 
 GitHub を使用するためには git ツールが必要になりますので、以下の URL よりダウンロードしてインストールしてください。
@@ -70,7 +87,6 @@ GitHub を使用するためには git ツールが必要になりますので�
 また Visual Studio ローカルデータベースから Azure SQL Database への移行を行う際には、SQL Server Management Studio (SSMS) が必要になりますので以下の URL ょーを参照しインストールしておいてください。
 
 * [**SQL Server Management Studio (SSMS) のダウンロード**](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-
 
 
 <br><br>
@@ -191,3 +207,5 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 👉 : [**演習1) タスク１ - ローカル環境でのプロジェクトの実行**](ex01.md)へ
 
 🏚️ :  [**README**](README.md)
+
+
