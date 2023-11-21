@@ -46,11 +46,11 @@ Azure App Service の演習で使用するアプリケーションは [.NET7](ht
 
 Azure には、この演習で使用する Visual Studio 2022、Visual Stdio Code、Git ツールがあらかじめインストールされた仮想マシンのイメージが用意されています。
 
-この環境を利用するには以下の URL にアクセスし、表示された画面の \[**今すぐ入所**\] ボタンをクリックし、仮想マシンを作成してください。
+この環境を利用するには以下の URL にアクセスし、表示された画面の \[**今すぐ入手**\] ボタンをクリックし、Azure 上に仮想マシンを作成してください。
 
 * [**Visual Studio 2022 (Microsoft Dev Box compatible)**](https://azuremarketplace.microsoft.com/ja/marketplace/apps/microsoftvisualstudio.visualstudioplustools?tab=Overview)
 
-階層マシンの作成が完了したら Microsoft Defender for Cloud が RDP の接続をブロックする可能性があるため、以下のページを参考にして、Microsoft Defender for Cloud の設定を変更してください。
+仮想マシンの作成が完了したら Microsoft Defender for Cloud が RDP の接続をブロックする可能性があるため、以下のページを参考にして、Microsoft Defender for Cloud の設定を変更してください。
 
 * [**Microsoft Defender for Cloud を使用して JIT VM アクセスを操作する**](https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage#work-with-jit-vm-access-using-microsoft-defender-for-cloud)
 
