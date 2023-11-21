@@ -40,13 +40,30 @@
 
 Azure App Service の演習で使用するアプリケーションは [.NET7](https://learn.microsoft.com/ja-jp/dotnet/core/whats-new/dotnet-7) の [ASP.NET Core MVC](https://learn.microsoft.com/ja-jp/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio) で作成されており、Visual Studio 開発用 DB(SQL Server Express LocalDB) を使用する都合上、Windows 上での動作を前提としています。
 
-このプロジェクトをビルドするには Visual Studio 2022 が必要です。
+この演習用アプリケーションをビルドし、実行するための開発環境の作成方法はいくつかありますので、ご自身の環境に合わせ以下のいずれかの方法で開発環境を作成してください。
 
-Visual Studio をお持ちでない場合は以下のサイトからライセンスに合致するものをダウンロードしてインストールすることができます。
+#### 1. Azure Dev Box を使用する
+
+Azure には、この演習で使用する Visual Studio 2022、Visual Stdio Code、Git ツールがあらかじめインストールされた仮想マシンのイメージが用意されています。
+
+この環境を利用するには以下の URL にアクセスし、表示された画面の \[**今すぐ入所**\] ボタンをクリックし、仮想マシンを作成してください。
+
+* [**Visual Studio 2022 (Microsoft Dev Box compatible)**](https://azuremarketplace.microsoft.com/ja/marketplace/apps/microsoftvisualstudio.visualstudioplustools?tab=Overview)
+
+階層マシンの作成が完了したら Microsoft Defender for Cloud が RDP の接続をブロックする可能性があるため、以下のページを参考にして、Microsoft Defender for Cloud の設定を変更してください。
+
+* [**Microsoft Defender for Cloud を使用して JIT VM アクセスを操作する**](https://learn.microsoft.com/ja-jp/azure/defender-for-cloud/just-in-time-access-usage#work-with-jit-vm-access-using-microsoft-defender-for-cloud)
+
+
+#### 2. ローカルの Windows マシンを使用する
+
+ローカルの Windows 環境を使用して演習用プロジェクトをビルドする場合は Visual Studio 2022 が必要です。Visual Studio をお持ちでない場合は以下のサイトからライセンスに合致するものをダウンロードしてインストールすることができます。
 
 
 * [**Visual Studio Tools のダウンロード**](https://visualstudio.microsoft.com/ja/downloads/)
 
+
+#### 3. Windows 11 の仮想マシンを使用する
 
 Windows 以外の OS を使用しており Visual Studio がインストールできない場合は、以下のページよりあらかじめ Visual Studio がインストールされた Windows 11 の仮想マシンをダウンロードして使用することができます。
 
@@ -70,7 +87,6 @@ GitHub を使用するためには git ツールが必要になりますので�
 また Visual Studio ローカルデータベースから Azure SQL Database への移行を行う際には、SQL Server Management Studio (SSMS) が必要になりますので以下の URL ょーを参照しインストールしておいてください。
 
 * [**SQL Server Management Studio (SSMS) のダウンロード**](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-
 
 
 <br><br>
@@ -193,4 +209,3 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 🏚️ :  [**README**](README.md)
 
 
-<!--handson-dev/P@ssw0rd1234-->
