@@ -97,12 +97,14 @@ GitHub を使用するためには git ツールが必要になりますので�
 
 テンプレート リポジトリ テンプレートを使用した新規リポジトリの作成手順は以下のとおりです。
 
- 1. 以下の URL にアクセスし、画面内のボタン `[Use this template]` をクリックします  
+ 1. 以下の URL にアクセスし、画面内のボタン \[**Use this template**\] をクリックし、表示されたドロップダウンリストから \[**Create a new repository**\] を選択します  
+
       https://github.com/osamum/MvcMovie 
-      <img src="images/template-button.png" width="700">
+      <img src="images/template-button.png" width="700px">
+
       <br>
     
-2. `Create a new project from MvcMovie` 画面の各項目を以下のように設定します
+2. \[**Create a new repository**\] 画面の各項目を以下のように設定します
       
      |  項目  |  値  |
      | ---- | ---- |   
@@ -113,7 +115,7 @@ GitHub を使用するためには git ツールが必要になりますので�
      | Include all branches | チェックしない|
    <br>
     
-3. 同ページの `[Create repository from template]` ボタンをクリックしてご自身の GitHub アカウントに `MvcMovie` リポジトリが作成されたことを確認します
+3. 同ページの \[**Create repository**\] ボタンをクリックしてご自身の GitHub アカウントに `MvcMovie` リポジトリが作成されたことを確認します
  
 4. 自身の GitHub に作成された `MvcMovie` リポジトリの \[**Code**\] ボタンをクリックし、リポジトリの URL をコピーします
 
