@@ -44,7 +44,7 @@ Azure App Service の演習で使用するアプリケーションは [.NET7](ht
 
 #### 1. Azure Dev Box を使用する
 
-Azure には、この演習で使用する Visual Studio 2022、Visual Stdio Code、Git ツールがあらかじめインストールされた仮想マシンのイメージが用意されています。
+Azure には、この演習で使用する Visual Studio 2022、Visual Studio Code、Git ツールがあらかじめインストールされた仮想マシンのイメージが用意されています。
 
 この環境を利用するには以下の URL にアクセスし、表示された画面の \[**今すぐ入手**\] ボタンをクリックし、Azure 上に仮想マシンを作成してください。
 
@@ -84,7 +84,7 @@ GitHub を使用するためには git ツールが必要になりますので�
 
 * [**Git-Downloading Packege**](https://git-scm.com/download/win)
 
-また Visual Studio ローカルデータベースから Azure SQL Database への移行を行う際には、SQL Server Management Studio (SSMS) が必要になりますので以下の URL ょーを参照しインストールしておいてください。
+また Visual Studio ローカルデータベースから Azure SQL Database への移行を行う際には、SQL Server Management Studio (SSMS) が必要になりますので以下の URLを参照しインストールしておいてください。
 
 * [**SQL Server Management Studio (SSMS) のダウンロード**](https://learn.microsoft.com/ja-jp/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 
@@ -119,7 +119,7 @@ GitHub を使用するためには git ツールが必要になりますので�
 
    ![リポジトリURL](images/common-04-02.png)
 
-5. リポジトリの URL をコピーしたら、ターミナル画面で以下の以下のコマンドを実行し、リポジトリをローカルにクローンします
+5. リポジトリの URL をコピーしたら、ターミナル画面で以下のコマンドを実行し、リポジトリをローカルにクローンします
 
    ```bash
    git clone コピーした URL
@@ -153,7 +153,7 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 7. ブラウザーが起動し、`https://localhost:61260/` にアクセスします
     https で接続されるため、Web ブラウザーによってはセキュリティ警告が表示されますが、警告を無視してアクセスしてください。
 
-    もし、警告の無視が場合は Web ブラウザーのナビゲーションバーにある URL の先頭の `https` を `http` に、ポート番号の `61260` を `61261` に変更してください。
+    もし、警告の無視ができない場合は Web ブラウザーのナビゲーションバーにある URL の先頭の `https` を `http` に、ポート番号の `61260` を `61261` に変更してください。
 
 8. アプリケーションが起動し、以下のような画面が表示されます
 
