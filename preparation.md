@@ -155,9 +155,9 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 
     以下のダイアログが表示された場合は、いずれも \[**はい**\] ボタンをクリックしてください。
 
-    <img src="images/Project_Confirm_SSL.png" width="700px">
+    <img src="images/Project_Confirm_SSL.png" width="500px">
 
-    <img src="images/Project_Alart_CA.png" width="600px">
+    <img src="images/Project_Alart_CA.png" width="400px">
 
     その他については警告を無視してアクセスしてください。
 
