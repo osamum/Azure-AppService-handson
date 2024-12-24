@@ -192,7 +192,7 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 10. Web ブラウザーのナビゲーションバーの URL を以下のように変更します
 
     ```
-    http://localhost:61260/api/movie
+    https://localhost:61260/api/movie
     ```
     この URL は REST API のエンドポイントとなっており、JSON 形式のデータが返されます。前述の SPA もこの REST API を使用して動作しています。
 
@@ -204,9 +204,9 @@ PC ローカルにクローンしたプロジェクトをビルドして実行�
 
 |  URL |  機能  |
 | ---- | ---- |   
-| http://localhost:61260/ | 動的 Web 画面 |
-| http://localhost:61260/index.html | SPA |
-| http://localhost:61260/api/movie | REST API |
+| https://localhost:61260/ | 動的 Web 画面 |
+| https://localhost:61260/index.html | SPA |
+| https://localhost:61260/api/movie | REST API |
 
 <br>
 
